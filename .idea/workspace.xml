@@ -2,51 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2537e09a-8294-4c1e-9d94-2c21177039a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inventory_management_system.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_07_110804_create_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/product/20201017043420.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Blade" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -178,7 +162,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../edeck" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -196,7 +186,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602040495587</updated>
-      <workItem from="1602040500540" duration="4839000" />
+      <workItem from="1602040500540" duration="4979000" />
+      <workItem from="1602068086537" duration="3231000" />
+      <workItem from="1602074756895" duration="6462000" />
+      <workItem from="1602134014303" duration="2651000" />
+      <workItem from="1602569977876" duration="42000" />
+      <workItem from="1602906770817" duration="231000" />
+      <workItem from="1602907310232" duration="1974000" />
+      <workItem from="1603018197855" duration="3678000" />
     </task>
     <servers />
   </component>
@@ -207,21 +204,29 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="189" key="GridCell.Tab.0.bottom" timestamp="1602044437014">
+    <state x="420" y="137" key="FileChooserDialogImpl" timestamp="1602570021255">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1602044437014" />
-    <state width="1237" height="189" key="GridCell.Tab.0.center" timestamp="1602044437014">
+    <state x="420" y="137" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1602570021255" />
+    <state width="1237" height="189" key="GridCell.Tab.0.bottom" timestamp="1602045746675">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1602044437014" />
-    <state width="1237" height="189" key="GridCell.Tab.0.left" timestamp="1602044437012">
+    <state width="1237" height="189" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1602045746675" />
+    <state width="1237" height="189" key="GridCell.Tab.0.center" timestamp="1602045746675">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1602044437012" />
-    <state width="1237" height="189" key="GridCell.Tab.0.right" timestamp="1602044437014">
+    <state width="1237" height="189" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1602045746675" />
+    <state width="1237" height="189" key="GridCell.Tab.0.left" timestamp="1602045746675">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1602044437014" />
+    <state width="1237" height="189" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1602045746675" />
+    <state width="1237" height="189" key="GridCell.Tab.0.right" timestamp="1602045746675">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="189" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1602045746675" />
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1602068476093">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1602068476093" />
   </component>
 </project>
